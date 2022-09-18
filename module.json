@@ -1,22 +1,25 @@
 {
-   "name": "5eFeats",
+   "id": "5eFeats",
    "title": "5e Feats",
    "description": "D&D 5e Feats Compendium",
-   "systems": ["dnd5e", "dnd5eJP"],
-   "author": "Jinker",
-   "version": "0.0.3",
+   "version": "0.0.3.1",
+   "compatibility": {
+       "minimum": "0.5.0",
+       "verified": "10.285"
+   },
+   "system": ["dnd5e", "dnd5eJP"],
+   "authors": [ "id": "Jinker"],
    "minimumCoreVersion": "0.5.0",
-   "compatibleCoreVersion": "0.5.5",
-   "url": "https://github.com/jinkergm/5eFeats",
-   "manifest": "https://raw.githubusercontent.com/jinkergm/5eFeats/master/module.json",
-   "download": "https://github.com/jinkergm/5eFeats/archive/master.zip",
+   "url": "https://github.com/rblake/5eFeats",
+   "manifest": "https://raw.githubusercontent.com/rblake/5eFeats/master/module.json",
+   "download": "https://github.com/rblake/5eFeats/archive/master.zip",
    "packs": [
     {
       "name": "5eFeats",
       "label": "5e Feats",
+      "system": "dnd5e",
       "path": "feats.db",
-      "entity": "Item",
-      "module": "5eFeats"
+      "type": "Item"
     }
   ]
  }

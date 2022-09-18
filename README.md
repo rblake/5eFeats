@@ -9,7 +9,7 @@ To install a module, follow these instructions:
 
 Use this manifest link in Foundry VTT.
 
-https://raw.githubusercontent.com/jinkergm/5eFeats/master/module.json
+https://raw.githubusercontent.com/rblake/5eFeats/master/module.json
 
 OR
 
